@@ -1,5 +1,5 @@
 # Credit card validation challenge.
-Hello, I'm Gabriel. This is my implementation of the credit card validation challenge. Before we proceed, I'd like to point out a few things:
+Hello, I'm Gabriel. This is an example implementation of a credit card validation system. Before we proceed, I'd like to point out a few things:
 
  - I know that credit card information is something that would probably require a higher level of security when sending it via API request. Therefore, if I were to implement this same solution on a production environment, I'd probably setup an HTTPS server and invest some time on researching how to parse the data more safely.
  - In the file "functions.js", some functions like "validationSuccess" and "validationFail" may seam useless, but I created them just to make it easier if some other functionality that could be triggered by one of these events was to be added later.
